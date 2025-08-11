@@ -253,6 +253,26 @@
               {% endfor %}
             </section>
           {% endif %}
+          
+          {% if course_certification %}
+            <section>
+              <h2 class="section-heading">Course and Certification</h2>
+              {% for cert in course_certification %}
+                <section>
+                  <h3>
+                    {% if cert.url %}
+                      <a href="{{ cert.url }}">{{ cert.title }}</a>
+                    {% else %}
+                      {{ cert.title }}
+                    {% endif %}
+                  </h3>
+                  {% if cert.issuer %}<p class="section-label">Issuer: {{ cert.issuer }}</p>{% endif %}
+                  {% if cert.date %}<p class="section-label">Issued: {{ cert.date }}</p>{% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+    
 
           {% if skills %}
             <section>

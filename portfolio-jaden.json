@@ -112,8 +112,8 @@
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
+      "title": "DIY Autonomous Robot Toy Car",
+      "summary": "A DIY project to build an autonomous robot toy car using Arduino, Raspberry Pi, and various sensors like lidar, ultrasonic, motor driver, accelerometer, and gyroscope. The project aims to create a toy car that can navigate autonomously using sensors and ROS (Robot Operating System).",
       "url": "https://sample.com",
       "highlights": [
         "First Highlight of Project One",
@@ -160,34 +160,7 @@
       ]
     }
   ],
-  "volunteer_experience": [
-    {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
-      "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
-      ]
-    },
-    {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
-      "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
-      ]
-    }
-  ],
+  "volunteer_experience": [],
   "education": [
     {
       "institution": "Singapore Polytechnic",
@@ -195,9 +168,9 @@
       "url": "https://www.sp.edu.sg/",
       "type": "Diploma",
       "degrees": [
-        "Diploma in Information Communication Technology",
-        "Broadband and Security Service",
-        "Certificate in Enterprise Linux Administration"
+        "Information Communication Technology",
+        "Broadband and Security Service Specialisation",
+        "Red Hat Enterprise Linux Administration 5"
       ],
       "honors": ["Director's Honours List", "Merit"],
       "gpa_cumulative": "3.82",
@@ -209,29 +182,77 @@
       "location": "Singapore",
       "url": "https://www.ite.edu.sg/colleges/ite-college-east",
       "type": "Nitec",
-      "degrees": ["Nitec in Info-communication Technology"],
+      "degrees": ["Info-Communication Technology"],
       "honors": ["Merit"],
       "gpa_cumulative": "4.0",
       "gpa_major": "4.0",
       "graduation_date": "28/12/2007"
     }
   ],
-  "skills": [
+    "course_certification": [
     {
-      "name": "My First Skill",
-      "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
+      "title": "Certified SolidWorks Associate (CSWA)",
+      "issuer": "Dassault Systèmes",
+      "url": "https://www.solidworks.com/sw/support/certifications/cswa.htm",
+      "date": "10/10/2020"
     },
     {
-      "name": "My Second Skill",
-      "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
+      "title": "Cisco Certified Network Associate (CCNA)",
+      "issuer": "Cisco Systems",
+      "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html",
+      "date": "10/10/2014"
+    },
+    {
+      "title": "Red Hat Linux Enterprise 5",
+      "issuer": "Red Hat",
+      "url": "https://www.redhat.com/en/services/certification/rhcsa",
+      "date": "10/10/2010"
+    },
+    {
+      "title": "Introduction to Quantum Computing",
+      "issuer": "SUTD",
+      "url": "https://www.sutd.edu.sg/course/introduction-to-quantum-computing/",
+      "date": "10/10/2023"
+    },
+    {
+      "title": "Cybersecurity Architecture Fundamentals",
+      "issuer": "SUTD",
+      "url": "https://www.sutd.edu.sg/course/cybersecurity-architecture-fundamentals/#:~:text=Overview,as%20confidentiality%2C%20integrity%20and%20availability.",
+      "date": "10/10/2024"
+    },
+    {
+      "title": "ROS for Beginners II: Localization, Navigation and SLAM",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/course/ros-navigation/",
+      "date": "19/08/2020"
+    }
+  ],
+  "skills": [
+    {
+      "name": "System Administration, Linux (Debian and Ubuntu)",
+      "proficiency": 90,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "Python, Django, Flask and FastAPI",
+      "proficiency": 70,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "Hardware Design, PCB Design, 3D CAD and 3D Printing",
+      "proficiency": 70,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "Compentency in manaing skill in Time management, Teamwork, and Communication",
+      "proficiency": 70,
+      "proficiency_label": "Advanced"
     }
   ],
   "interests": [
     {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
+      "name": "Badminton",
+      "summary": "The only sport I play and enjoy.",
       "images": [
         {
           "img_path": "https://picsum.photos/600/338?random=7",
@@ -244,8 +265,8 @@
       ]
     },
     {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
+      "name": "Walking",
+      "summary": "Walking is a great way to relax and clear my mind. I enjoy long walks in the park or around my neighborhood.",
       "images": [
         {
           "img_path": "https://picsum.photos/600/338?random=9",
@@ -264,20 +285,9 @@
       "fluency": "Native speaker"
     },
     {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
+      "language": "Chinese",
+      "fluency": "Native speaker"
     }
   ],
-  "references": [
-    {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
-    },
-    {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
-    }
-  ]
+  "references": []
 }
