@@ -8,8 +8,9 @@ def main():
         generate_portfolio.generate_html_cv()
         print("Portfolio generated successfully!")
     elif len(sys.argv) == 2  and ".json" in sys.argv[1]:
-        print(f"Generating portfolio from the argument json file {sys.argv[1]}...")
-        generate_portfolio.generate_html_cv()
+        portfolio_json: str = sys.argv[1]
+        print(f"Generating portfolio from the argument json file {portfolio_json}...")
+        generate_portfolio.generate_html_cv(json_file=portfolio_json)
         print("Portfolio generated successfully!")
     else:
         print(f"The argument {sys.argv[1]} is not a valid json file...")

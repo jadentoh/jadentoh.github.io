@@ -4,8 +4,9 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-def generate_html_cv(json_file: str = "portfolio.json") -> None:
+def generate_html_cv(json_file: str="portfolio.json") -> None:
 # Load JSON data
+    print(f"Loading JSON data from {json_file}...")
     with Path(json_file).open(encoding="utf-8") as f:
         data = json.load(f)
 
