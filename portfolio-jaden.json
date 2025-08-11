@@ -1,0 +1,280 @@
+{
+  "name": "Toh Jin Ming (Jaden)",
+  "label": "Software/Hardware Developer",
+  "image_path": "img/default-image.png",
+  "contact": {
+    "email": "tohjinming@gmail.com",
+    "phone": "+6582006465",
+    "location": "Blk 114 Yishun Ring Road, Singapore 760114"
+  },
+  "summary": "Passionate about technology and research, with a strong desire to design products that benefit millions. A results-oriented professional with extensive experience in technologies, seeking to leverage acquired knowledge and expertise to drive innovation and impact.",
+  "base_url": "127.0.0.1:5500",
+  "social_links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/jadentoh",
+      "svg_path": "img/github.svg"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "http://www.linkedin.com/in/jadenjmtoh",
+      "svg_path": "img/linkedin.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "ViewQwest Pte Ltd",
+      "position": "Product Lead Engineer",
+      "url": "https://viewqwest.com/sg/",
+      "start_date": "02/11/2020",
+      "end_date": "25/08/2025",
+      "summary": "Automation fibre network provisioning system for ViewQwest's customers and client and Smart Home IoT product development.",
+      "highlights": [
+        "Created and maintained automation frontend and back-end API services using Python and Django. With this automation, it reduce the process time by 80%",
+        "Tested and Mainteined Smart Home IoT product. Developed using Z-wave, Java, MQTT, GCP and iOS/Android Apps. This product is used by ViewQwest's customers to control their home devices.",
+        "Led a team of 3–4 developers on these projects and product."
+      ]
+    },
+    {
+      "company": "RACE Academy",
+      "position": "AnT Trainee and OJT",
+      "url": "https://www.linkedin.com/school/race-robotics/",
+      "start_date": "27/04/2020",
+      "end_date": "26/10/2020",
+      "summary": "Attachment and training programme organized by WSG and RACE academy to train me in robotics and automation. Trainee will undergo 3 months training and 3months OJT on robotics or Automation Company.",
+      "highlights": [
+        "Learnt python and C programming language, and how to use it to control hardware devices.",
+        "Acquired knowledge on 3D CAD (Computer-Aided Design) software and certified in Solidworks Associate (CSWA).",
+        "Planned, development and design ROS (Robot Operating Sytem) curriculum for RACE Academy for the furture Ant Trainee.",
+        "Worked on AMR project with changi airport group that Hitch buddy is a robot that can help to carry dustbin that are full to the disposal area."
+      ]
+    },
+    {
+      "company": "Sesto Robotics Pte Ltd",
+      "position": "Assistant Engineer (Software)",
+      "url": "https://www.sestorobotics.com/",
+      "start_date": "10/10/2018",
+      "end_date": "11/11/2019",
+      "summary": "Supported build-up, testing, deployment, and troubleshooting of Automated Guided Vehicles (AGVs) and Autonomous Mobile Robots (AMRs) for various customers.",
+      "highlights": [
+        "Learnt ROS (Robot Operating System) and how to use it.",
+        "Assisted in setup on AMR magnetic dockering, charging station and automation sliding door opening.",
+        "Assisted in deployment of AMR and lidar mapping at customer site.",
+        "Created python scripts to easier depolyament and testing AMR and AGV."
+      ]
+    },
+    {
+      "company": "Republic Polytechnic",
+      "position": "Project Officer/Research Assistant",
+      "url": "https://www.rp.edu.sg/",
+      "start_date": "13/10/2014",
+      "end_date": "08/08/2018",
+      "summary": "supported the creation of prototypes for five research projects. Gained experience with hardware and software integration, and developed skills in project management and team collaboration.",
+      "highlights": [
+        "Worked on those hardware device and sensor Arduino, NodeMCU, ESP32, RaspberryPi and IC chip amplifier, ADC, load-cell, zigbee and rfid. ",
+        "Worked on those software programming language Arduino C/C++, Python MySQL, PHP, JavaScrpit and AWS/GCP.",
+        "Self-learned and applied skills like 3D drawing, 3D printing, and PCB design, PCB soldering.",
+        "Smart Inventory Management system", 
+        "Feet and Posture measurement device for kids", 
+        "Water level tracking system",
+        "Indoor tracking devices for the elderly home",
+        "Weight monitoring system for the bedridden patient."
+      ]
+    },
+    {
+      "company": "OSINet Communication Pte Ltd",
+      "position": "Network Operation Engineer",
+      "url": "",
+      "start_date": "20/01/2014",
+      "end_date": "10/19/2014",
+      "summary": "Monitoring and troubleshoot hotel network, Servers, PCs and printers. ",
+      "highlights": [
+        "Monitor network for abnormal usage via cisco web UI.",
+        "Weekly Network device and Servers physical check.",
+        "Troubleshooting guest Wi-Fi network, hotel staffs PC and network/server downtime issue."
+
+      ]
+    },
+    {
+      "company": "Republic of Singapore Air Force (RSAF)",
+      "position": "National Service",
+      "url": "",
+      "start_date": "02/08/2011",
+      "end_date": "01/08/2013",
+      "summary": "Serviced Apache AH64D Helicopter and Managing SAP.",
+      "highlights": [
+        "Servicing, marshalling and weapon loading on Aircraft.",
+        "Logging and check SAP data is correct for Aircraft",
+        "Demand spare Aircraft part via SAP System",
+        "When to Oversea detachment for exercise training at Australia."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "My First Project",
+      "summary": "Short summary about my first project",
+      "url": "https://sample.com",
+      "highlights": [
+        "First Highlight of Project One",
+        "Second Highlight of Project One",
+        "Third Highlight of Project One"
+      ],
+      "images": [
+        {
+          "img_path": "https://picsum.photos/600/338?random=1",
+          "caption": "Image Caption 1"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=2",
+          "caption": "Image Caption 2"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=3",
+          "caption": "Image Caption 3"
+        }
+      ]
+    },
+    {
+      "title": "My Second Project",
+      "summary": "Short summary about my second project",
+      "url": "https://sample.com",
+      "highlights": [
+        "First Highlight of Project Two",
+        "Second Highlight of Project Two",
+        "Third Highlight of Project Two"
+      ],
+      "images": [
+        {
+          "img_path": "https://picsum.photos/600/338?random=4",
+          "caption": "Image Caption 4"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=5",
+          "caption": "Image Caption 5"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=6",
+          "caption": "Image Caption 6"
+        }
+      ]
+    }
+  ],
+  "volunteer_experience": [
+    {
+      "organization": "Latest Organization",
+      "position": "Position One",
+      "url": "https://sample.com",
+      "start_date": "01/01/2020",
+      "end_date": "Present",
+      "summary": "Short summary about present volunteer work",
+      "highlights": [
+        "First Duty of Current Organization",
+        "Second Duty of Current Organization",
+        "Third Duty of Current Organization"
+      ]
+    },
+    {
+      "organization": "Previous Organization",
+      "position": "Position Two",
+      "url": "https://sample.com",
+      "start_date": "01/01/2010",
+      "end_date": "01/01/2020",
+      "summary": "Short summary about previous volunteer work",
+      "highlights": [
+        "First Duty of Previous Organization",
+        "Second Duty of Previous Organization",
+        "Third Duty of Previous Organization"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Institution One",
+      "location": "Institution One Location",
+      "url": "https://sample.com",
+      "degrees": [
+        "Master of Science in Computer Science",
+        "Minor in Mathematics"
+      ],
+      "honors": ["Outstanding Student Award", "Dean's List"],
+      "gpa_cumulative": "3.5",
+      "gpa_major": "4.0",
+      "graduation_date": "01/01/2005"
+    },
+    {
+      "institution": "Institution Two",
+      "location": "Institution Two Location",
+      "url": "https://sample.com",
+      "degrees": ["Bachelor of Science in Physics"],
+      "honors": ["Scholarship Recipient"],
+      "gpa_cumulative": "3.2",
+      "gpa_major": "3.9",
+      "graduation_date": "01/01/2000"
+    }
+  ],
+  "skills": [
+    {
+      "name": "My First Skill",
+      "proficiency": 100,
+      "proficiency_label": "Proficiency Level"
+    },
+    {
+      "name": "My Second Skill",
+      "proficiency": 80,
+      "proficiency_label": "Proficiency Level"
+    }
+  ],
+  "interests": [
+    {
+      "name": "My First Hobby",
+      "summary": "Short summary about my first Hobby",
+      "images": [
+        {
+          "img_path": "https://picsum.photos/600/338?random=7",
+          "caption": "Image Caption 7"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=8",
+          "caption": "Image Caption 8"
+        }
+      ]
+    },
+    {
+      "name": "My Second Hobby",
+      "summary": "Short summary about my second hobby",
+      "images": [
+        {
+          "img_path": "https://picsum.photos/600/338?random=9",
+          "caption": "Image Caption 9"
+        },
+        {
+          "img_path": "https://picsum.photos/600/338?random=10",
+          "caption": "Image Caption 10"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "American Sign Language",
+      "fluency": "Professional Working Proficiency"
+    }
+  ],
+  "references": [
+    {
+      "name": "Person One",
+      "relation": "Previous Boss",
+      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
+    },
+    {
+      "name": "Person Two",
+      "relation": "Previous Coworker",
+      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+    }
+  ]
+}
