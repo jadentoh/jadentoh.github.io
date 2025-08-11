@@ -98,7 +98,7 @@
     {
       "company": "Republic of Singapore Air Force (RSAF)",
       "position": "National Service",
-      "url": "",
+      "url": "https://www.rsaf.gov.sg/",
       "start_date": "02/08/2011",
       "end_date": "01/08/2013",
       "summary": "Serviced Apache AH64D Helicopter and Managing SAP.",
@@ -190,27 +190,30 @@
   ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
+      "institution": "Singapore Polytechnic",
+      "location": "Sinagpore",
+      "url": "https://www.sp.edu.sg/",
+      "type": "Diploma",
       "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
+        "Diploma in Information Communication Technology",
+        "Broadband and Security Service",
+        "Certificate in Enterprise Linux Administration"
       ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
+      "honors": ["Director's Honours List", "Merit"],
+      "gpa_cumulative": "3.82",
       "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "graduation_date": "21/03/2011"
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "ITE College East (Simei ITE Campus)",
+      "location": "Singapore",
+      "url": "https://www.ite.edu.sg/colleges/ite-college-east",
+      "type": "Nitec",
+      "degrees": ["Nitec in Info-communication Technology"],
+      "honors": ["Merit"],
+      "gpa_cumulative": "4.0",
+      "gpa_major": "4.0",
+      "graduation_date": "28/12/2007"
     }
   ],
   "skills": [
