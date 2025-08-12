@@ -1,7 +1,7 @@
 {
   "name": "Toh Jin Ming (Jaden)",
   "label": "Software/Hardware Developer",
-  "image_path": "img/default-image.png",
+  "image_path": "img/BestMe.png",
   "contact": {
     "email": "tohjinming@gmail.com",
     "phone": "+6582006465",
@@ -114,48 +114,139 @@
     {
       "title": "DIY Autonomous Robot Toy Car",
       "summary": "A DIY project to build an autonomous robot toy car using Arduino, Raspberry Pi, and various sensors like lidar, ultrasonic, motor driver, accelerometer, and gyroscope. The project aims to create a toy car that can navigate autonomously using sensors and ROS (Robot Operating System).",
-      "url": "https://sample.com",
+      "url": "",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
+        "Custom Motor Driver with PID control for precise speed and direction control.",
+        "Lidar-based obstacle detection and avoidance using ROS.",
+        "Plan to add-on features like camera for object detection and recognition.",
+        "Plan improvement manoeuvrability with additional sensors like accelermetr and gyroscope."
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
+          "img_path": "img/toy_car.png",
+          "caption": "Toy Car with PID Motor Driver"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
+          "img_path": "img/lidar_toy_car2.png",
+          "caption": "Toy Car with Lidar Sensor"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
+          "img_path": "img/lidar_toy_car3.png",
+          "caption": "Troubleshooting Lidar Sensor"
         }
       ]
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
+      "title": "Hitch Buddy",
+      "summary": "A RACE academy project with Changi Airport Group to develop an autonomous mobile robot (AMR) that can assist in carrying full dustbins to the disposal area. The project involves using ROS (Robot Operating System) for navigation and control, and it aims to improve efficiency in waste management at the airport.",
+      "url": "",
+      "highlights": [
+        "Confiured and tested AMR detect the QR code on the floor for docking and picking up the dustbin.",
+        "Design customized hatch for the AMR to carry the dustbin.",
+        "Add-on camera to AMR to precisely dock properly with the dustbin."
+      ],
+      "images": [
+        {
+          "img_path": "img/hitch_buddy.png",
+          "caption": "Hitch Buddy AMR and Team members"
+        }
+      ]
+    },
+    {
+      "title": "Vesta Shield (Smart Home Security Product)",
+      "summary": "Centralized IoT hub using Z-Wave & Wi-Fi; integrated smart sensors, plugs, and Zigbee lighting; hosted on GCP with Android/iOS app development.",
+      "url": "",
+      "highlights": [
+        "Developed a centralized IoT hub using Z-Wave and Wi-Fi protocols.",
+        "Integrated various smart sensors, plugs, and Zigbee lighting for home automation.",
+        "Hosted the system on Google Cloud Platform (GCP) for scalability and reliability.",
+        "Developed Android and iOS applications for user control and monitoring."
+      ],
+      "images": [
+        {
+          "img_path": "img/vesta_shield.png",
+          "caption": "Vesta Shield Smart Home Security Product"
+        }
+      ]
+    },
+    {
+      "title": "Weight Monitoring System for Bedridden Patients",
+      "summary": "Designed a low-cost, continuous weight monitoring solution using load-cell sensors; data transmitted to a mobile app for real-time analysis.",
+      "url": "",
+      "highlights": [
+        "Developed a low-cost weight monitoring system using load-cell sensors.",
+        "Implemented continuous weight tracking for bedridden patients.",
+        "Data transmitted to a mobile application for real-time analysis and alerts."
+      ],
+      "images": [
+        {
+          "img_path": "https://picsum.photos/600/338?random=1",
+          "caption": ""
+        }
+        
+      ]
+    },
+    {
+      "title": "Indoor Tracking Device for Elderly Homes",
+      "summary": "Developed Zigbee-based indoor location tracking system for elderly residents in healthcare facilities.",
+      "url": "",
+      "highlights": [
+        "Engineered a Zigbee-based indoor location tracking system.",
+        "Designed for elderly residents in healthcare facilities to ensure safety and monitoring.",
+        "Implemented real-time tracking and alert system for caregivers."
+      ],
+      "images": [
+        {
+          "img_path": "https://picsum.photos/600/338?random=2",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "title": "Water Level Tracking System",
+      "summary": "Built RFID-based water level monitoring with real-time web-based UI for data visualization.",
       "url": "https://sample.com",
       "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
+        "Developed a water level tracking system using RFID technology.",
+        "Implemented real-time monitoring with a web-based user interface for data visualization.",
+        "Enabled alerts for low or high water levels to ensure timely action."
+      ],
+      "images": [
+        {
+          "img_path": "https://picsum.photos/600/338?random=3",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "title": "Feet & Posture Measurement Device",
+      "summary": "Created device to measure weight distribution and posture; integrated with server/VM for analysis and historical tracking.",
+      "url": "https://sample.com",
+      "highlights": [
+        "Designed a device to measure weight distribution and posture.",
+        "Integrated with a server/VM for data analysis and historical tracking.",
+        "Provided insights into posture correction and foot health."
       ],
       "images": [
         {
           "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "title": "Smart Inventory Management System",
+      "summary": "Engineered load-cell-based pick-to-light inventory tracking with automated restocking alerts via API integration.",
+      "url": "https://sample.com",
+      "highlights": [
+        "Developed a smart inventory management system using load-cell sensors.",
+        "Implemented pick-to-light technology for efficient inventory tracking.",
+        "Automated restocking alerts via API integration to streamline operations."
+      ],
+      "images": [
         {
           "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
+          "caption": ""
         }
       ]
     }
@@ -172,9 +263,9 @@
         "Broadband and Security Service Specialisation",
         "Red Hat Enterprise Linux Administration 5"
       ],
-      "honors": ["Director's Honours List", "Merit"],
+      "honors": ["Director's Honours List of 2009, 2010, 2011", "Certificate of Merit"],
       "gpa_cumulative": "3.82",
-      "gpa_major": "4.0",
+      "gpa_major": "",
       "graduation_date": "21/03/2011"
     },
     {
@@ -183,10 +274,21 @@
       "url": "https://www.ite.edu.sg/colleges/ite-college-east",
       "type": "Nitec",
       "degrees": ["Info-Communication Technology"],
-      "honors": ["Merit"],
+      "honors": ["CDC & CCC ITE Scholarship 2006 & 2007"],
       "gpa_cumulative": "4.0",
-      "gpa_major": "4.0",
+      "gpa_major": "",
       "graduation_date": "28/12/2007"
+    },
+    {
+      "institution": "Ahmad Ibrahim Secondary School",
+      "location": "Singapore",
+      "url": "https://www.ahmadibrahimsec.moe.edu.sg/",
+      "type": "Secondary Education",
+      "degrees": ["Desgin and tech"],
+      "honors": ["Edu-save Scholarship 2002 to 2005", "Top in GCE 'N' Techincal level Exam", "Top in GCE'N' Techincal Basic Chinese", "Top in GCE 'N' Techincal Mathematics", "Top in GCE 'N' Techincal Science", "Top in GCE 'N' Techincal Computer Application"],
+      "gpa_cumulative": "",
+      "gpa_major": "",
+      "graduation_date": "07/04/2006"
     }
   ],
     "course_certification": [
@@ -255,12 +357,8 @@
       "summary": "The only sport I play and enjoy.",
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
+          "img_path": "img/badminton.png",
+          "caption": "Me playing Badminton in RP"
         }
       ]
     },
@@ -269,12 +367,19 @@
       "summary": "Walking is a great way to relax and clear my mind. I enjoy long walks in the park or around my neighborhood.",
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
+          "img_path": "img/walking.png",
+          "caption": "Me walking in lower seletar reservoir"
+        }
+        
+      ]
+    },
+    {
+      "name": "Watching and Reading",
+      "summary": "I enjoy keeping up with the latest technology trends and learning new coding techniques. I often watch tech videos and read articles to stay informed.",
+      "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
+          "img_path": "img/LTT.png",
+          "caption": "Linus Tech Tips"
         }
       ]
     }
