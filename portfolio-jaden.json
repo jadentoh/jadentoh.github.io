@@ -209,7 +209,7 @@
     {
       "title": "Water Level Tracking System",
       "summary": "Built RFID-based water level monitoring with real-time web-based UI for data visualization.",
-      "url": "https://sample.com",
+      "url": "",
       "highlights": [
         "Developed a water level tracking system using RFID technology.",
         "Implemented real-time monitoring with a web-based user interface for data visualization.",
@@ -225,7 +225,7 @@
     {
       "title": "Feet & Posture Measurement Device",
       "summary": "Created device to measure weight distribution and posture; integrated with server/VM for analysis and historical tracking.",
-      "url": "https://sample.com",
+      "url": "",
       "highlights": [
         "Designed a device to measure weight distribution and posture.",
         "Integrated with a server/VM for data analysis and historical tracking.",
@@ -249,7 +249,7 @@
     {
       "title": "Smart Inventory Management System",
       "summary": "Engineered load-cell-based pick-to-light inventory tracking with automated restocking alerts via API integration.",
-      "url": "https://sample.com",
+      "url": "",
       "highlights": [
         "Developed a smart inventory management system using load-cell sensors.",
         "Implemented pick-to-light technology for efficient inventory tracking.",
