@@ -139,6 +139,84 @@
 
         <!-- Sidebar Section -->
         <aside>
+          {% if education %}
+            <section>
+              <h2 class="section-heading">Education</h2>
+              {% for edu in education %}
+                <section>
+                  <h3>
+                    {% if edu.url %}
+                      <a href="{{ edu.url }}">{{ edu.institution }}</a>
+                    {% else %}
+                      {{ edu.institution }}
+                    {% endif %}
+                  </h3>
+                  {% if edu.location %}<p class="section-label">{{ edu.location }}</p>{% endif %}
+                  {% if edu.degrees %}
+                    <h4> Tertiary:  {{ edu.type }} </h4>
+                    <ul>
+                      {% for deg in edu.degrees %}<li>{{ deg }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% if edu.honors %}
+                    <h4>Honors</h4>
+                    <ul>
+                      {% for hon in edu.honors %}<li>{{ hon }}</li>{% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% if edu.gpa_major or edu.gpa_cumulative or edu.graduation_date %}
+                    <p>
+                      {% if edu.gpa_major %}<span class="block">GPA in Major: {{ edu.gpa_major }}</span>{% endif %}
+                      {% if edu.gpa_cumulative %}<span class="block">Cumulative GPA: {{ edu.gpa_cumulative }}</span>{% endif %}
+                      {% if edu.graduation_date %}<span class="block">Graduation Date: {{ edu.graduation_date }}</span>{% endif %}
+                    </p>
+                  {% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+
+           {% if course_certification %}
+            <section>
+              <h2 class="section-heading">Course and Certification</h2>
+              {% for cert in course_certification %}
+                <section>
+                  <h3>
+                    {% if cert.url %}
+                      <a href="{{ cert.url }}">{{ cert.title }}</a>
+                    {% else %}
+                      {{ cert.title }}
+                    {% endif %}
+                  </h3>
+                  {% if cert.issuer %}<p class="section-label">Issuer: {{ cert.issuer }}</p>{% endif %}
+                  {% if cert.date %}<p class="section-label">Issued: {{ cert.date }}</p>{% endif %}
+                </section>
+              {% endfor %}
+            </section>
+          {% endif %}
+
+          {% if skills %}
+            <section>
+              <h2 class="section-heading">Skills</h2>
+              <ul class="unstyled-list">
+                {% for skill in skills %}
+                  <li>
+                    <h3>{{ skill.name }}</h3>
+                    <div class="skill-bar">
+                      <div class="skill-bar-fill w-{{ skill.proficiency }}"
+                           role="meter"
+                           aria-valuenow="{{ skill.proficiency }}"
+                           aria-valuemin="0"
+                           aria-valuemax="100">
+                        <span class="skill-bar-label">{{ skill.proficiency_label }}</span>
+                      </div>
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+          
           {% if languages %}
             <section>
               <h2 class="section-heading">Languages</h2>
@@ -152,32 +230,7 @@
               </ul>
             </section>
           {% endif %}
-
-          {% if volunteer_experience %}
-            <section>
-              <h2 class="section-heading">Volunteer Experience</h2>
-              {% for vol in volunteer_experience %}
-                <section>
-                  <h3>
-                    {% if vol.url %}
-                      {{ vol.position }} at <a href="{{ vol.url }}">{{ vol.organization }}</a>
-                    {% else %}
-                      {{ vol.position }} at {{ vol.organization }}
-                    {% endif %}
-                  </h3>
-                  {% if vol.start_date and vol.end_date %}
-                    <p class="section-label">{{ vol.start_date }} - {{ vol.end_date }}</p>
-                  {% endif %}
-                  {% if vol.summary %}<p>{{ vol.summary }}</p>{% endif %}
-                  {% if vol.highlights %}
-                    <ul>
-                      {% for highlight in vol.highlights %}<li>{{ highlight }}</li>{% endfor %}
-                    </ul>
-                  {% endif %}
-                </section>
-              {% endfor %}
-            </section>
-          {% endif %}
+          
         </aside>
       </div>
     </div>
