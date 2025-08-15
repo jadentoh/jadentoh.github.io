@@ -1,6 +1,14 @@
+@media print {
+  .page-break-before {
+    page-break-before: always; /* Ensure a page break after a chapter */
+  }
+  .top-padding {
+    padding-top: 1.27cm; /* Add top padding to the section */
+  }
+}
 @page {
   size: letter;
-  margin: 0in;
+  margin: 0cm;
 }
 
 html {
@@ -11,12 +19,12 @@ a[href]::after {
   content: "";
 }
 
-section {
+/*section {
   page-break-inside: avoid;
-}
+}*/
 
 header {
-  padding: 0.5in;
+  padding: 1.27cm;
 }
 
 header {
@@ -34,13 +42,13 @@ footer {
 }
 
 main {
-  padding-left: 0.5in;
-  padding-bottom: 0.5in;
+  padding-left: 1.27cm;
+  padding-bottom: 1.27cm;
 }
 
 aside {
-  padding-right: 0.5in;
-  padding-bottom: 0.5in;
+  padding-right: 1.27cm;
+  padding-bottom: 1.27cm;
 }
 
 .page-header,

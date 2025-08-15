@@ -91,24 +91,33 @@
             <section>
               <h2 class="section-heading">Work Experience</h2>
               {% for job in work_experience %}
-                <section>
-                  <h3>
-                    {% if job.url %}
-                      {{ job.position }} at <a href="{{ job.url }}">{{ job.company }}</a>
-                    {% else %}
-                      {{ job.position }} at {{ job.company }}
-                    {% endif %}
-                  </h3>
-                  {% if job.start_date and job.end_date %}
-                    <p class="section-label">{{ job.start_date }} - {{ job.end_date }}</p>
-                  {% endif %}
-                  {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
-                  {% if job.highlights %}
-                    <ul>
-                      {% for highlight in job.highlights %}<li>{{ highlight }}</li>{% endfor %}
-                    </ul>
-                  {% endif %}
-                </section>
+              
+                {% if job.company == "Sesto Robotics Pte Ltd" or job.company == "OSINet Communication Pte Ltd" %}
+                  <div class="page-break-before">
+                    <div class="top-padding">
+                {% endif %}
+                    <section>
+                      <h3>
+                        {% if job.url %}
+                          {{ job.position }} at <a href="{{ job.url }}">{{ job.company }}</a>
+                        {% else %}
+                          {{ job.position }} at {{ job.company }}
+                        {% endif %}
+                      </h3>
+                      {% if job.start_date and job.end_date %}
+                        <p class="section-label">{{ job.start_date }} - {{ job.end_date }}</p>
+                      {% endif %}
+                      {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
+                      {% if job.highlights %}
+                        <ul>
+                          {% for highlight in job.highlights %}<li>{{ highlight }}</li>{% endfor %}
+                        </ul>
+                      {% endif %}
+                    </section>
+                {% if job.company == "Sesto Robotics Pte Ltd" or job.company == "OSINet Communication Pte Ltd" %}
+                  </div>
+                </div>
+                {% endif %}
               {% endfor %}
             </section>
           {% endif %}
@@ -117,6 +126,10 @@
             <section>
               <h2 class="section-heading">Projects</h2>
               {% for project in projects %}
+              {% if project.title == "Hitch Buddy" or project.title == "Indoor Tracking Device for Elderly Homes" %}
+                <div class="page-break-before">
+                  <div class="top-padding">
+              {% endif %}
                 <section>
                   <h3>
                     {% if project.url %}
@@ -132,6 +145,10 @@
                     </ul>
                   {% endif %}
                 </section>
+                {% if project.title == "Hitch Buddy" or project.title == "Indoor Tracking Device for Elderly Homes" %}
+                  </div>
+                </div>
+                {% endif %}
               {% endfor %}
             </section>
           {% endif %}
@@ -143,6 +160,10 @@
             <section>
               <h2 class="section-heading">Education</h2>
               {% for edu in education %}
+              {% if edu.institution == "Ahmad Ibrahim Secondary School" %}
+                <div class="page-break-before">
+                  <div class="top-padding">
+              {% endif %}
                 <section>
                   <h3>
                     {% if edu.url %}
@@ -172,14 +193,23 @@
                     </p>
                   {% endif %}
                 </section>
+                {% if edu.institution == "Ahmad Ibrahim Secondary School" %}
+                  </div>
+                </div>
+                {% endif %} 
               {% endfor %}
             </section>
           {% endif %}
 
            {% if course_certification %}
+           
             <section>
               <h2 class="section-heading">Course and Certification</h2>
               {% for cert in course_certification %}
+              {% if cert.title == "Cybersecurity Architecture Fundamentals" %}
+                <div class="page-break-before">
+                  <div class="top-padding">
+              {% endif %}
                 <section>
                   <h3>
                     {% if cert.url %}
@@ -191,6 +221,10 @@
                   {% if cert.issuer %}<p class="section-label">Issuer: {{ cert.issuer }}</p>{% endif %}
                   {% if cert.date %}<p class="section-label">Issued: {{ cert.date }}</p>{% endif %}
                 </section>
+                {% if cert.title == "Cybersecurity Architecture Fundamentals" %}
+                  </div>
+                </div>
+                {% endif %}
               {% endfor %}
             </section>
           {% endif %}
@@ -202,15 +236,6 @@
                 {% for skill in skills %}
                   <li>
                     <h3>{{ skill.name }}</h3>
-                    <div class="skill-bar">
-                      <div class="skill-bar-fill w-{{ skill.proficiency }}"
-                           role="meter"
-                           aria-valuenow="{{ skill.proficiency }}"
-                           aria-valuemin="0"
-                           aria-valuemax="100">
-                        <span class="skill-bar-label">{{ skill.proficiency_label }}</span>
-                      </div>
-                    </div>
                   </li>
                 {% endfor %}
               </ul>

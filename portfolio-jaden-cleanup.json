@@ -1,0 +1,435 @@
+{
+  "name": "Toh Jin Ming (Jaden)",
+  "label": "Software/Hardware Developer",
+  "image_path": "img/BestMe.png",
+  "contact": {
+    "email": "tohjinming@gmail.com",
+    "phone": "+6582006465",
+    "location": "Blk 114 Yishun Ring Road, Singapore 760114"
+  },
+  "summary": "Passionate about technology and research, with a strong desire to design products that benefit millions. A results-oriented professional with extensive experience in technologies, seeking to leverage acquired knowledge and expertise to drive innovation and impact.",
+  "base_url": "127.0.0.1:5500",
+  "social_links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/jadentoh",
+      "svg_path": "img/github.svg"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "http://www.linkedin.com/in/jadenjmtoh",
+      "svg_path": "img/linkedin.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "ViewQwest Pte Ltd",
+      "position": "Product Lead Engineer",
+      "url": "https://viewqwest.com/sg/",
+      "start_date": "02/11/2020",
+      "end_date": "25/07/2025",
+      "summary": "Automated the fiber network provisioning system for ViewQwest's customers and clients, and led Smart Home IoT product development.",
+      "highlights": [
+        "Created and maintained automated frontend and back-end API services using Python and Django, which reduced manual process and manpower by about 80%.",
+        "Tested and maintained a Smart Home IoT product developed using Z-wave, Java, MQTT, GCP, and iOS/Android Apps. This product is used by ViewQwest's customers to control their home devices.",
+        "Led a team of 3–4 developers on these projects and products."
+      ]
+    },
+    {
+      "company": "RACE Academy",
+      "position": "AnT Trainee and OJT",
+      "url": "https://www.linkedin.com/school/race-robotics/",
+      "start_date": "27/04/2020",
+      "end_date": "26/10/2020",
+      "summary": "An attachment and training program organized by WSG and RACE academy to provide training in robotics and automation. The program included three months of training and a three-month on-the-job training (OJT) attachment with a robotics or automation company.",
+      "highlights": [
+        "Learned Python and C programming languages and how to use them to control hardware devices.",
+        "Acquired knowledge of 3D CAD (Computer-Aided Design) software and became a Certified SolidWorks Associate (CSWA).",
+        "Planned, developed, and designed the ROS (Robot Operating System) curriculum for RACE Academy for future trainees.",
+        "Worked on an AMR project with Changi Airport Group to develop a robot, 'Hitch Buddy', that carries full trash bins to a disposal area."
+      ]
+    },
+    {
+      "company": "Sesto Robotics Pte Ltd",
+      "position": "Assistant Engineer (Software)",
+      "url": "https://www.sestorobotics.com/",
+      "start_date": "10/10/2018",
+      "end_date": "11/11/2019",
+      "summary": "Supported the build-up, testing, deployment, and troubleshooting of Automated Guided Vehicles (AGVs) and Autonomous Mobile Robots (AMRs) for various customers.",
+      "highlights": [
+        "Learned and applied ROS (Robot Operating System).",
+        "Assisted in the setup of AMR magnetic docking, charging stations, and automated sliding door opening.",
+        "Assisted in the deployment of AMR and LiDAR mapping at customer sites.",
+        "Created Python scripts to streamline the deployment and testing of AMR and AGV."
+      ]
+    },
+    {
+      "company": "Republic Polytechnic",
+      "position": "Project Officer/Research Assistant",
+      "url": "https://www.rp.edu.sg/",
+      "start_date": "13/10/2014",
+      "end_date": "08/08/2018",
+      "summary": "Supported the creation of prototypes for five research projects. Gained experience with hardware and software integration, and developed skills in project management and team collaboration.",
+      "highlights": [
+        "Worked with hardware devices and sensors including Arduino, NodeMCU, ESP32, RaspberryPi, and IC chips such as amplifiers, ADCs, load-cells, Zigbee, and RFID.",
+        "Used software programming languages including Arduino C/C++, Python, MySQL, PHP, JavaScript, and platforms like AWS/GCP.",
+        "Self-taught and applied skills in 3D drawing, 3D printing, and PCB design and soldering.",
+        "Managed projects including a Smart Inventory Management System, a Feet and Posture Measurement device for kids, a Water Level Tracking System, an Indoor Tracking Device for the elderly, and a Weight Monitoring System for bedridden patients."
+      ]
+    },
+    {
+      "company": "OSINet Communication Pte Ltd",
+      "position": "Network Operation Engineer",
+      "url": "",
+      "start_date": "20/01/2014",
+      "end_date": "10/19/2014",
+      "summary": "Monitored and troubleshooted hotel networks, servers, PCs, and printers.",
+      "highlights": [
+        "Monitored the network for abnormal usage via the Cisco web UI.",
+        "Performed weekly physical checks of network devices and servers.",
+        "Troubleshot guest Wi-Fi networks and hotel staff PC and network/server downtime issues."
+      ]
+    },
+    {
+      "company": "Republic of Singapore Air Force (RSAF)",
+      "position": "National Service",
+      "url": "https://www.rsaf.gov.sg/",
+      "start_date": "02/08/2011",
+      "end_date": "01/08/2013",
+      "summary": "Serviced Apache AH64D Helicopters and managed SAP systems.",
+      "highlights": [
+        "Serviced, marshaled, and loaded weapons on aircraft.",
+        "Logged and checked SAP data for aircraft accuracy.",
+        "Requested spare aircraft parts via the SAP system.",
+        "Participated in an overseas detachment for exercise training in Australia."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "DIY Autonomous Robot Toy Car",
+      "summary": "A DIY project to build an autonomous robot toy car using Arduino, Raspberry Pi, and various sensors like LiDAR, ultrasonic, motor drivers, accelerometers, and gyroscopes. The project aims to create a toy car that can navigate autonomously using sensors and ROS (Robot Operating System).",
+      "url": "",
+      "highlights": [
+        "Custom motor driver with PID control for precise speed and direction.",
+        "LiDAR-based obstacle detection and avoidance using ROS.",
+        "Planned add-on features like a camera for object detection and recognition.",
+        "Planned to improve maneuverability with additional sensors like an accelerometer and gyroscope."
+      ],
+      "images": [
+        {
+          "img_path": "img/lidar_toy_car1.png",
+          "caption": "Toy Car with PID Motor Driver"
+        },
+        {
+          "img_path": "img/lidar_toy_car2.png",
+          "caption": "Toy Car with LiDAR Sensor"
+        },
+        {
+          "img_path": "img/lidar_toy_car3.png",
+          "caption": "Troubleshooting LiDAR Sensor"
+        }
+      ]
+    },
+    {
+      "title": "Hitch Buddy",
+      "summary": "A RACE Academy project with Changi Airport Group to develop an autonomous mobile robot (AMR) that can assist in carrying full trash bins to a disposal area. The project involves using ROS (Robot Operating System) for navigation and control, and it aims to improve efficiency in waste management at the airport.",
+      "url": "",
+      "highlights": [
+        "Configured and tested the AMR to detect QR codes on the floor for docking and picking up trash bins.",
+        "Designed a customized hatch for the AMR to carry the trash bin.",
+        "Added a camera to the AMR for precise docking with the trash bin."
+      ],
+      "images": [
+        {
+          "img_path": "img/hitch_buddy.png",
+          "caption": "Hitch Buddy AMR and Team members"
+        }
+      ]
+    },
+    {
+      "title": "Vesta Shield (Smart Home Security Product)",
+      "summary": "Centralized IoT hub using Z-Wave & Wi-Fi; integrated smart sensors, plugs, and Zigbee lighting; hosted on GCP with Android/iOS app development.",
+      "url": "",
+      "highlights": [
+        "Developed a centralized IoT hub using Z-Wave and Wi-Fi protocols.",
+        "Integrated various smart sensors, plugs, camera, and Zigbee lighting for home automation and security.",
+        "Hosted the system on Google Cloud Platform (GCP) for scalability and reliability.",
+        "Developed Android and iOS applications for user control and monitoring."
+      ],
+      "images": [
+        {
+          "img_path": "img/vesta_shield.png",
+          "caption": "Vesta Shield Smart Home Security Product"
+        }
+      ]
+    },
+    {
+      "title": "Weight Monitoring System for Bedridden Patients",
+      "summary": "Designed a low-cost, continuous weight monitoring solution using load-cell sensors; data transmitted to a mobile app for real-time analysis.",
+      "url": "",
+      "highlights": [
+        "Developed a low-cost weight monitoring system using load-cell sensors.",
+        "Implemented continuous weight tracking for bedridden patients.",
+        "Transmitted data to a mobile application for real-time analysis and alerts."
+      ],
+      "images": [
+        {
+          "img_path": "img/bed1.png",
+          "caption": ""
+        },
+        {
+          "img_path": "img/bed2.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "title": "Indoor Tracking Device for Elderly Homes",
+      "summary": "Developed a Zigbee-based indoor location tracking system for elderly residents in healthcare facilities.",
+      "url": "",
+      "highlights": [
+        "Engineered a Zigbee-based indoor location tracking system.",
+        "Designed for elderly residents in healthcare facilities to ensure safety and monitoring.",
+        "Implemented a real-time tracking and alert system for caregivers."
+      ],
+      "images": [
+        {
+          "img_path": "img/tracker.png",
+          "caption": "Testing Zigbee tracker signal strength"
+        }
+      ]
+    },
+    {
+      "title": "Water Level Tracking System",
+      "summary": "Built an RFID-based water level monitoring system with a real-time web-based UI for data visualization.",
+      "url": "",
+      "highlights": [
+        "Developed a water level tracking system using RFID technology.",
+        "Implemented real-time monitoring with a web-based user interface for data visualization.",
+        "Enabled alerts for low or high water levels to ensure timely action."
+      ],
+      "images": [
+        {
+          "img_path": "img/rfid.png",
+          "caption": "High Power RFID Reader"
+        }
+      ]
+    },
+    {
+      "title": "Feet & Posture Measurement Device",
+      "summary": "Created a device to measure weight distribution and posture; integrated with a server/VM for analysis and historical tracking.",
+      "url": "",
+      "highlights": [
+        "Designed a device to measure weight distribution and posture.",
+        "Integrated with a server/VM for data analysis and historical tracking.",
+        "Provided insights into posture correction and foot health."
+      ],
+      "images": [
+        {
+          "img_path": "img/feet1.png",
+          "caption": "Commercial foot scanner device"
+        },
+        {
+          "img_path": "img/feet2.png",
+          "caption": "Prototype of Feet Measurement Device"
+        },
+        {
+          "img_path": "img/feet3.png",
+          "caption": "Web UI for Feet Measurement Device"
+        }
+      ]
+    },
+    {
+      "title": "Smart Inventory Management System",
+      "summary": "Engineered a load-cell-based pick-to-light inventory tracking system with automated restocking alerts via API integration.",
+      "url": "",
+      "highlights": [
+        "Developed a smart inventory management system using load-cell sensors.",
+        "Implemented pick-to-light technology for efficient inventory tracking.",
+        "Automated restocking alerts via API integration to streamline operations."
+      ],
+      "images": [
+        {
+          "img_path": "img/inventory1.png",
+          "caption": "Prototype of devices for demonstration"
+        },
+        {
+          "img_path": "img/inventory2.png",
+          "caption": "Web UI of the prototype"
+        },
+        {
+          "img_path": "img/inventory3.png",
+          "caption": "Stress testing the prototype"
+        },
+        {
+          "img_path": "img/inventory4.png",
+          "caption": "Version 1 of the prototype 3D design"
+        },
+        {
+          "img_path": "img/inventory5.png",
+          "caption": "PCB of the prototype"
+        }
+      ]
+    }
+  ],
+  "volunteer_experience": [],
+  "education": [
+    {
+      "institution": "Singapore Polytechnic",
+      "location": "Singapore",
+      "url": "https://www.sp.edu.sg/",
+      "type": "Diploma",
+      "degrees": [
+        "Information Communication Technology",
+        "Broadband and Security Service Specialization",
+        "Red Hat Enterprise Linux Administration"
+      ],
+      "honors": [
+        "Director's Honours List of 2009, 2010, 2011",
+        "Certificate of Merit"
+      ],
+      "gpa_cumulative": "3.82",
+      "gpa_major": "",
+      "graduation_date": "21/03/2011"
+    },
+    {
+      "institution": "ITE College East (Simei ITE Campus)",
+      "location": "Singapore",
+      "url": "https://www.ite.edu.sg/colleges/ite-college-east",
+      "type": "Nitec",
+      "degrees": [
+        "Info-Communication Technology"
+      ],
+      "honors": [
+        "CDC & CCC ITE Scholarship 2006 & 2007"
+      ],
+      "gpa_cumulative": "4.0",
+      "gpa_major": "",
+      "graduation_date": "28/12/2007"
+    },
+    {
+      "institution": "Ahmad Ibrahim Secondary School",
+      "location": "Singapore",
+      "url": "https://www.ahmadibrahimsec.moe.edu.sg/",
+      "type": "Secondary Education",
+      "degrees": [
+        "Design and Technology"
+      ],
+      "honors": [
+        "Edu-save Scholarship 2002 to 2005",
+        "Top in GCE 'N' Technical level Exam",
+        "Top in GCE 'N' Technical Basic Chinese",
+        "Top in GCE 'N' Technical Mathematics",
+        "Top in GCE 'N' Technical Science",
+        "Top in GCE 'N' Technical Computer Application"
+      ],
+      "gpa_cumulative": "",
+      "gpa_major": "",
+      "graduation_date": "07/04/2006"
+    }
+  ],
+  "course_certification": [
+    {
+      "title": "Certified SolidWorks Associate (CSWA)",
+      "issuer": "Dassault Systèmes",
+      "url": "https://www.solidworks.com/sw/support/certifications/cswa.htm",
+      "date": "10/10/2020"
+    },
+    {
+      "title": "Cisco Certified Network Associate (CCNA)",
+      "issuer": "Cisco Systems",
+      "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html",
+      "date": "10/10/2014"
+    },
+    {
+      "title": "Red Hat Linux Enterprise 5",
+      "issuer": "Red Hat",
+      "url": "https://www.redhat.com/en/services/certification/rhcsa",
+      "date": "10/10/2010"
+    },
+    {
+      "title": "Introduction to Quantum Computing",
+      "issuer": "SUTD",
+      "url": "https://www.sutd.edu.sg/course/introduction-to-quantum-computing/",
+      "date": "10/10/2023"
+    },
+    {
+      "title": "Cybersecurity Architecture Fundamentals",
+      "issuer": "SUTD",
+      "url": "https://www.sutd.edu.sg/course/cybersecurity-architecture-fundamentals/#:~:text=Overview,as%20confidentiality%2C%20integrity%20and%20availability.",
+      "date": "10/10/2024"
+    },
+    {
+      "title": "ROS for Beginners II: Localization, Navigation and SLAM",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/course/ros-navigation/",
+      "date": "19/08/2020"
+    }
+  ],
+  "skills": [
+    {
+      "name": "System Administration, Linux (Debian and Ubuntu)",
+      "proficiency": 90,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "Python, Django, Flask and FastAPI",
+      "proficiency": 70,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "Hardware Design, PCB Design, 3D CAD and 3D Printing",
+      "proficiency": 70,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "Proficiency in Time Management, Teamwork, and Communication",
+      "proficiency": 70,
+      "proficiency_label": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Badminton",
+      "summary": "The only sport I play and enjoy.",
+      "images": [
+        {
+          "img_path": "img/badminton.png",
+          "caption": "Me playing Badminton in RP"
+        }
+      ]
+    },
+    {
+      "name": "Walking",
+      "summary": "Walking is a great way to relax and clear my mind. I enjoy long walks in the park or around my neighborhood.",
+      "images": [
+        {
+          "img_path": "img/walking.png",
+          "caption": "Me walking in lower seletar reservoir"
+        }
+      ]
+    },
+    {
+      "name": "Watching and Reading",
+      "summary": "I enjoy keeping up with the latest technology trends and learning new coding techniques. I often watch tech videos and read articles to stay informed.",
+      "images": [
+        {
+          "img_path": "img/LTT.png",
+          "caption": "Linus Tech Tips"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Written and Spoken"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Spoken"
+    }
+  ],
+  "references": []
+}
